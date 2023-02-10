@@ -1,2 +1,3 @@
-@import url(color.css);
-@import url(font.css);
+@import url(common.css);
+@import url(investors-carousel.css);
+@import url(section-question-need-cryptochange.css);

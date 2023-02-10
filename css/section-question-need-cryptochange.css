@@ -1,0 +1,17 @@
+.section__question-need-cryptochange {
+    background: #21283D;
+    background-size: cover;
+    height: 100;
+    max-width: none;
+}
+.title__question-text-question-need-cryptochange{
+    font-size: 30px;
+    color:#FFFFFF;
+    vertical-align: baseline;
+}
+.dash__before-title-question-need-cryptochange{
+    color: #FFB811;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: baseline;
+}
