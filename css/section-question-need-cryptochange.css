@@ -1,15 +1,14 @@
 .section__question-need-cryptochange {
-    background: #21283D;
+    background-color: var(--section-question-need-cryptochange-background);
     background-size: cover;
-    height: 100;
-    max-width: none;
+}
+.dash__before-title-question-need-cryptochange{
+    color: var(--dash-before-title-question-need-cryptochange-color);
+    font-size: 30px;
+    display: inline-block;
 }
 .title__question-question-need-cryptochange{
     font-size: 30px;
-    color:#FFFFFF;
-}
-.dash__before-title-question-need-cryptochange{
-    color: #FFB811;
-    font-size: 30px;
-    vertical-align: baseline;
+    color: var(--section-title-text-color);
+    display: inline-block;
 }

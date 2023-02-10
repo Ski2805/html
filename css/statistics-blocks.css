@@ -1,0 +1,27 @@
+.title__text-statistic-in-dollar{
+    color:var(--title-statistic-text-color);
+    font-size: 62px;
+}
+.divider__dash-between-title-and-subtitle{
+    color:#ffffff1c;
+    font-size: 17px;
+}
+.subtitle__text-statistic-in-dollar, .subtitle__text-statistic-users, .subtitle__text-statistic-in-percent, .subtitle__text-statistic-speed-transactions{
+    color: #A7A7B1;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+}
+.title__text-statistic-users{
+    color:var(--title-statistic-text-color);
+    font-size: 62px;
+}
+.title__text-statistic-in-percent{
+    color:var(--title-statistic-text-color);
+    font-size: 62px;
+
+}
+.title__text-statistic-speed-transactions{
+    color:var(--title-statistic-text-color);
+    font-size: 62px;
+}
+
