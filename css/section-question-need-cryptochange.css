@@ -1,14 +1,32 @@
+
 .section__question-need-cryptochange {
     background-color: var(--section-background);
     background-size: cover;
+    display:block;
+    padding-top: 55px;
+    padding-right: 24px;
+    padding-bottom: 60px;
+    padding-left: 24px;
+    margin: auto;
 }
 .dash__before-title-question-need-cryptochange{
     color: var(--dash-before-title-question-need-cryptochange-color);
     font-size: 30px;
     display: inline-block;
+    border: solid 2px white;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: left;
 }
 .title__question-question-need-cryptochange{
     font-size: 30px;
     color: var(--section-title-text-color);
     display: inline-block;
+    border: solid 2px white;
+    padding-top: 15px;
+    
+    
+   
 }
