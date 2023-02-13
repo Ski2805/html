@@ -6,30 +6,30 @@
     min-width: 320px;
     padding-top: 55px;
     padding-bottom: 60px;
-    font-size: 30px;
+    font-size: 20px;
     
 }
 .title__section-question-need-cryptochange{
-    border: solid 2px white;
     display:flex;
     padding-right: 40px;
     padding-left: 40px;
     justify-content: center;
+    
 }
 .dash__before-title-question-need-cryptochange{
     color: var(--dash-before-title-question-need-cryptochange-color);
-    border: solid 2px white;
     display: block;
     padding-top: 0;
     padding-right: 15px;
     padding-bottom: 0px;
     padding-left: 15px;
     justify-content: center;
-
+}
+.dash__before-title-text-question-need-cryptochange{
+    border-image-width: 1;
 }
 .title__question-need-cryptochange{
     color: var(--section-title-text-color);
-    border: solid 2px white;
     display: block;
     justify-content: center;
 }

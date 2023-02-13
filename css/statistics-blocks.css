@@ -1,59 +1,48 @@
 .block__statistic{
-    border: solid 2px white;
-    display:flex;
+    display:block;
     padding-right: 40px;
     padding-left: 40px;
     margin-top: 50px;
-    justify-content: center;
+    min-width: 320px;
 }
 .block__title_statistic-in-dollar{
     color:var(--title-statistic-text-color);
     font-size: 30px;
-    border: solid 2px white;
 }
 .block__title-statistic-users{
     color:var(--title-statistic-text-color);
     font-size: 30px;
-    border: solid 2px white;
 }
 .block__title-statictic-in-percent{
     color:var(--title-statistic-text-color);
     font-size: 30px;
-    display: inline;
-    border: solid 2px white;
 }
 .block__title-statistic-speed-transactions{
     color:var(--title-statistic-text-color);
     font-size: 30px;
-    display: inline;
-    border: solid 2px white;
 }
 .subtitle__text-statistic-in-dollar{
     color: var(--subtitle-statistic-text-color);
     font-family: 'Fira Sans', sans-serif;
     font-size: 15px;
-    border: solid 2px white;
     display: inline;
 }
 .subtitle__text-statistic-users{
     color: var(--subtitle-statistic-text-color);
     font-family: 'Fira Sans', sans-serif;
     font-size: 15px;
-    border: solid 2px white;
     display: inline;
 }
 .subtitle__text-statistic-in-percent{
     color: var(--subtitle-statistic-text-color);
     font-family: 'Fira Sans', sans-serif;
     font-size: 15px;
-    border: solid 2px white;
     display: inline;
 }
 .subtitle__text-statistic-speed-transactions{
     color: var(--subtitle-statistic-text-color);
     font-family: 'Fira Sans', sans-serif;
     font-size: 15px;
-    border: solid 2px white;
     display: inline;
 }
 
@@ -62,4 +51,15 @@ hr{
     height: 3px;
     border: 0;
     width: 20%;
+}
+@media (min-width: 768px){
+    .block__statistic{
+    display:flex;
+    grid-template-columns: 200px 200px 200px 200px;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 50px;
+    justify-content: center;
+    }
 }
