@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap');
 
 * {
     margin: 0;
@@ -8,12 +7,13 @@
 }
 
 :root {
-    --section-background:#21283D;
-    --section-title-text-color: #FFFFFF;
-    --dash-before-title-question-need-cryptochange-color:#FFB811;
-    --title-statistic-text-color:#FFB811;
-    --subtitle-statistic-text-color:#A7A7B1;
-    --between-title-and-subtitle:#A7A7B1;
+    --color-background-statistics:#21283D;
+    --color-headline-and-title: #FFFFFF;
+    --color-dash-and-title-statistic:#FFB811;
+    --color-subtitle-statistics:#A7A7B1;
+    --color-divider-statistic:#A7A7B1;
+    --color-datetime-investors:#4D8EFF;
+    --color-datetime-news:#7F84DD;
     font-size: 18px;
     scroll-behavior: smooth;
     font-family: Ubuntu, Fi sans-serif;
